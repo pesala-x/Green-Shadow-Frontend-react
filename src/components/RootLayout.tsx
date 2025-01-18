@@ -4,7 +4,7 @@ import {SideBar} from "./dashboard/SideBar.tsx";
 export const RootLayout = () => {
     return (
         <>
-            <SideBar></SideBar>
+            <SideBar/>
             <Outlet></Outlet>
         </>
     );
