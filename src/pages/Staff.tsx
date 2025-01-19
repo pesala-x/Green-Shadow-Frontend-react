@@ -1,4 +1,5 @@
-import React, {ChangeEvent, useState} from "react";
+import {ChangeEvent, useState} from "react";
+import {SearchBar} from "../components/SearchBar.tsx";
 
 export const Staff = () => {
     const [searchValue, setSearchValue ] = useState('');

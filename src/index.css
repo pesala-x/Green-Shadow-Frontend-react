@@ -43,7 +43,7 @@ nav ul {
 .nav-btn-logout:active {
     @apply bg-red-600 transform scale-95;
 }
-/*.action > :first-child:hover path {
+.action > :first-child:hover path {
     fill: #00ff15;
     transition: 0.5s;
 }
@@ -60,5 +60,5 @@ nav ul {
 
 .table-rows{
     height: 68vh;
-}*/
+}
 
