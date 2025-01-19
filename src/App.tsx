@@ -1,40 +1,43 @@
 import './App.css'
-import {Dashboard} from "./pages/Dashboard.tsx";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import {RootLayout} from "./components/RootLayout.tsx";
-import {Staff} from "./pages/Staff.tsx";
-import {Field} from "./pages/Field.tsx";
-import {Crops} from "./pages/Crops.tsx";
-import {Vehicle} from "./pages/Vehicle.tsx";
-import {Equipment} from "./pages/Equipment.tsx";
-import {CropDetails} from "./pages/CropDetails.tsx";
-import {Logout} from "./components/Logout.tsx";
-import {Error} from "./pages/Error.tsx";
+import {RootLayoutComponent} from "./components/sidebar/RootLayoutComponent.tsx";
+import {DashboardPage} from "./pages/DashboardPage.tsx";
+import {FieldPage} from "./pages/FieldPage.tsx";
+import {VehiclePage} from "./pages/VehiclePage.tsx";
+import {CropPage} from "./pages/CropPage.tsx";
+import {StaffPage} from "./pages/StaffPage.tsx";
+import {EquipmentPage} from "./pages/EquipmentPage.tsx";
+import {LogPage} from "./pages/LogPage.tsx";
+import {NotFoundPage} from "./pages/NotFoundPage.tsx";
+
 
 function App() {
 
     const routes = createBrowserRouter([
         {
             path: '',
-            element: <RootLayout/>,
+            element: <RootLayoutComponent/>,
             children: [
-                {path: '', element: <Dashboard/>},
-                {path: '/staff', element: <Staff/>},
-                {path: '/field', element: <Field/>},
-                {path: '/crops', element: <Crops/>},
-                {path: '/vehicle', element: <Vehicle/>},
-                {path: '/equipment', element: <Equipment/>},
-                {path: '/cropDetails', element: <CropDetails/>},
-                {path: '/logout', element: <Logout/>},
-                {path: '*', element: <Error/>}
+                {path: '', element: <DashboardPage/>},
+                {path: '/fields', element: <FieldPage/>},
+                {path: '/vehicles', element: <VehiclePage/>},
+                {path: '/crops', element: <CropPage/>},
+                {path: '/staffs', element: <StaffPage/>},
+                {path: '/equipments', element: <EquipmentPage/>},
+                {path: '/logs', element: <LogPage/>},
             ]
         },
+        {
+            path: "*",
+            element: <NotFoundPage/>
+        }
     ])
-  return (
-    <>
-        <RouterProvider router={routes}/>
-    </>
-  )
+    return (
+        <>
+            <RouterProvider router={routes}/>
+        </>
+    )
 }
 
 export default App
+
