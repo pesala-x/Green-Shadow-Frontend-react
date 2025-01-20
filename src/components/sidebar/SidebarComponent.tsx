@@ -20,7 +20,7 @@ export const SidebarComponent = () => {
     return (
         <div className="flex">
             <div
-                className={`min-h-screen transition-all duration-300 bg-blue-900 ${
+                className={`min-h-screen transition-all duration-300 bg-white ${
                     isSidebarOpen ? "w-64" : "w-16"
                 }`}
             >
@@ -30,11 +30,11 @@ export const SidebarComponent = () => {
                             !isSidebarOpen && "hidden"
                         }`}
                     >
-                        Green Shadow
+                        <img src='/public/logo/greens-logo.png'/>
                     </span>
                     <button
                         onClick={toggleSidebar}
-                        className="text-white p-2 rounded hover:bg-white hover:text-blue-900 transition-colors duration-300"
+                        className="text-green-500 p-2 rounded hover:bg-white hover:text-green-500 transition-colors duration-300"
                     >
                         <svg
                             className="w-6 h-6"
@@ -73,7 +73,7 @@ export const SidebarComponent = () => {
                                 to={to}
                                 className={`flex items-center ${
                                     isSidebarOpen ? "space-x-3" : "justify-center"
-                                } w-full p-3 rounded-md text-white transition-all duration-300 hover:bg-white hover:text-blue-900`}
+                                } w-full p-3 rounded-md text-green-500 transition-all duration-300 hover:bg-green-500 hover:text-white`}
                             >
                                 <Icon size={24}/>
                                 {isSidebarOpen && (
