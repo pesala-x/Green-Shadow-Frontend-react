@@ -141,7 +141,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="log_code"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Log Code
                         </label>
@@ -159,7 +159,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="log_date"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Log Date
                         </label>
@@ -175,7 +175,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="observation"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Observation
                         </label>
@@ -194,7 +194,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_code"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Code
                         </label>
@@ -215,7 +215,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="crop_code"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Crop Code
                         </label>
@@ -236,7 +236,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="staff_id"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Staff ID
                         </label>
@@ -260,7 +260,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Name
                         </label>
@@ -275,7 +275,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="crop_category"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Crop Category
                         </label>
@@ -290,7 +290,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="staff_first_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Staff First Name
                         </label>
@@ -305,7 +305,7 @@ export const LogFormComponent = () => {
                     <div>
                         <label
                             htmlFor="log_image"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Log Image
                         </label>
@@ -313,7 +313,7 @@ export const LogFormComponent = () => {
                             type="file"
                             id="log_image"
                             onChange={handleImageChange}
-                            className="w-full p-2 border rounded border-gray-300 text-blue-700"
+                            className="w-full p-2 border rounded border-gray-300 text-green-500"
                             accept="image/*"
                         />
                         {previewImage && <img src={previewImage} alt="Preview" className="mt-2 h-20"/>}

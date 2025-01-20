@@ -117,7 +117,7 @@ export const EquipmentFormComponent = () => {
                     <div>
                         <label
                             htmlFor="equipment_id"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Equipment ID
                         </label>
@@ -135,7 +135,7 @@ export const EquipmentFormComponent = () => {
                     <div>
                         <label
                             htmlFor="equipment_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text- shadow-sm"
                         >
                             Equipment Name
                         </label>
@@ -152,7 +152,7 @@ export const EquipmentFormComponent = () => {
                     <div>
                         <label
                             htmlFor="equipment_type"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Equipment Type
                         </label>
@@ -174,7 +174,7 @@ export const EquipmentFormComponent = () => {
                     <div>
                         <label
                             htmlFor="status"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Status
                         </label>
@@ -196,7 +196,7 @@ export const EquipmentFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_code"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Code
                         </label>
@@ -218,7 +218,7 @@ export const EquipmentFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Name
                         </label>
@@ -232,7 +232,7 @@ export const EquipmentFormComponent = () => {
                     <div>
                         <label
                             htmlFor="staff_id"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Staff ID
                         </label>
@@ -254,7 +254,7 @@ export const EquipmentFormComponent = () => {
                     <div>
                         <label
                             htmlFor="staff_first_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Staff First Name
                         </label>

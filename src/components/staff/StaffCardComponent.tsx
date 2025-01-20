@@ -10,7 +10,7 @@ export const StaffCardComponent = () => {
                     key={staff.staff_id}
                     className="max-w-md p-6 border rounded-lg shadow-md hover:shadow-xl transition-shadow bg-gradient-to-br from-gray-200 to-white"
                 >
-                    <h2 className="text-xl font-semibold text-blue-800 mb-2">
+                    <h2 className="text-xl font-semibold text-green-500 mb-2">
                         {staff.first_name} {staff.last_name}
                     </h2>
                     <div className="grid grid-cols-2 gap-2 text-sm text-gray-800">

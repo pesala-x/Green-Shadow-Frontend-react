@@ -119,7 +119,7 @@ export const CropFormComponent = () => {
                     <div>
                         <label
                             htmlFor="crop_code"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Crop Code
                         </label>
@@ -137,7 +137,7 @@ export const CropFormComponent = () => {
                     <div>
                         <label
                             htmlFor="common_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Common Name
                         </label>
@@ -154,7 +154,7 @@ export const CropFormComponent = () => {
                     <div>
                         <label
                             htmlFor="scientific_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Scientific Name
                         </label>
@@ -171,7 +171,7 @@ export const CropFormComponent = () => {
                     <div>
                         <label
                             htmlFor="category"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Category
                         </label>
@@ -193,7 +193,7 @@ export const CropFormComponent = () => {
                     <div>
                         <label
                             htmlFor="season"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Season
                         </label>
@@ -215,7 +215,7 @@ export const CropFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_code"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Code
                         </label>
@@ -237,7 +237,7 @@ export const CropFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Name
                         </label>
@@ -252,7 +252,7 @@ export const CropFormComponent = () => {
                     <div>
                         <label
                             htmlFor="crop_image"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Crop Image
                         </label>
@@ -260,7 +260,7 @@ export const CropFormComponent = () => {
                             type="file"
                             id="crop_image"
                             onChange={handleImageChange}
-                            className="w-full p-2 border rounded border-gray-300"
+                            className="w-full p-2 border rounded text-green-500 border-gray-300"
                             accept="image/*"
                         />
                         {previewImage && <img src={previewImage} alt="Preview" className="mt-2 h-20"/>}

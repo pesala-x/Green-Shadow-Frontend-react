@@ -82,7 +82,7 @@ export const VehicleFormComponent = () => {
                     <div>
                         <label
                             htmlFor="vehicle_code"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Vehicle Code
                         </label>
@@ -100,7 +100,7 @@ export const VehicleFormComponent = () => {
                     <div>
                         <label
                             htmlFor="license_plate"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             License Plate
                         </label>
@@ -117,7 +117,7 @@ export const VehicleFormComponent = () => {
                     <div>
                         <label
                             htmlFor="category"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Category
                         </label>
@@ -144,7 +144,7 @@ export const VehicleFormComponent = () => {
                     <div>
                         <label
                             htmlFor="fuel"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Fuel Type
                         </label>
@@ -168,7 +168,7 @@ export const VehicleFormComponent = () => {
                     <div>
                         <label
                             htmlFor="status"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Status
                         </label>
@@ -189,7 +189,7 @@ export const VehicleFormComponent = () => {
                     <div>
                         <label
                             htmlFor="remarks"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Remarks
                         </label>

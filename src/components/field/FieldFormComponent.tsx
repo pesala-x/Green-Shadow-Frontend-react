@@ -96,7 +96,7 @@ export const FieldFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_code"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Code
                         </label>
@@ -114,7 +114,7 @@ export const FieldFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_name"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Name
                         </label>
@@ -131,7 +131,7 @@ export const FieldFormComponent = () => {
                     <div>
                         <label
                             htmlFor="location"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Location
                         </label>
@@ -148,7 +148,7 @@ export const FieldFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_size"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Size
                         </label>
@@ -165,7 +165,7 @@ export const FieldFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_image1"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Image 1
                         </label>
@@ -173,7 +173,7 @@ export const FieldFormComponent = () => {
                             type="file"
                             id="field_image1"
                             onChange={(e) => handleImageChange(e, setFieldImage1, setPreviewImage1)}
-                            className="w-full p-2 border rounded border-gray-300 text-blue-700"
+                            className="w-full p-2 border rounded border-gray-300 text-green-500"
                             accept="image/*"
                         />
                         {previewImage1 && (
@@ -183,7 +183,7 @@ export const FieldFormComponent = () => {
                     <div>
                         <label
                             htmlFor="field_image2"
-                            className="block mb-2 text-base font-medium text-blue-700 shadow-sm"
+                            className="block mb-2 text-base font-medium text-gray-600 shadow-sm"
                         >
                             Field Image 2
                         </label>
@@ -191,7 +191,7 @@ export const FieldFormComponent = () => {
                             type="file"
                             id="field_image2"
                             onChange={(e) => handleImageChange(e, setFieldImage2, setPreviewImage2)}
-                            className="w-full p-2 border rounded border-gray-300 text-blue-700"
+                            className="w-full p-2 border rounded border-gray-300 text-green-500"
                             accept="image/*"
                         />
                         {previewImage2 && (

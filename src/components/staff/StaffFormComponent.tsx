@@ -139,7 +139,7 @@ export const StaffFormComponent = () => {
                 <div className="grid gap-6 mb-6 grid-cols-1 sm:grid-cols-2">
                     {/* First 4 Rows */}
                     <div>
-                        <label htmlFor="staff_id" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="staff_id" className="block mb-2 text-base font-medium text-gray-600">
                             Staff ID
                         </label>
                         <input
@@ -154,7 +154,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="first_name" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="first_name" className="block mb-2 text-base font-medium text-gray-600">
                             First Name
                         </label>
                         <input
@@ -168,7 +168,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="last_name" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="last_name" className="block mb-2 text-base font-medium text-gray-600">
                             Last Name
                         </label>
                         <input
@@ -182,7 +182,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="designation" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="designation" className="block mb-2 text-base font-medium text-gray-600">
                             Designation
                         </label>
                         <select
@@ -201,7 +201,7 @@ export const StaffFormComponent = () => {
                         </select>
                     </div>
                     <div>
-                        <label htmlFor="gender" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="gender" className="block mb-2 text-base font-medium text-gray-600">
                             Gender
                         </label>
                         <select
@@ -220,7 +220,7 @@ export const StaffFormComponent = () => {
                         </select>
                     </div>
                     <div>
-                        <label htmlFor="joined_date" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="joined_date" className="block mb-2 text-base font-medium text-gray-600">
                             Joined Date
                         </label>
                         <input
@@ -233,7 +233,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="date_of_birth" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="date_of_birth" className="block mb-2 text-base font-medium text-gray-600">
                             Date of Birth
                         </label>
                         <input
@@ -246,7 +246,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="address_line1" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="address_line1" className="block mb-2 text-base font-medium text-gray-600">
                             Address Line 1
                         </label>
                         <input
@@ -262,7 +262,7 @@ export const StaffFormComponent = () => {
                 </div>
                 <div className="grid gap-6 mb-6 sm:grid-cols-3">
                     <div>
-                        <label htmlFor="address_line2" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="address_line2" className="block mb-2 text-base font-medium text-gray-600">
                             Address Line 2
                         </label>
                         <input
@@ -275,7 +275,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="address_line3" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="address_line3" className="block mb-2 text-base font-medium text-gray-600">
                             Address Line 3
                         </label>
                         <input
@@ -288,7 +288,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="address_line4" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="address_line4" className="block mb-2 text-base font-medium text-gray-600">
                             Address Line 4
                         </label>
                         <input
@@ -303,7 +303,7 @@ export const StaffFormComponent = () => {
                 </div>
                 <div className="grid gap-6 mb-6 sm:grid-cols-4">
                     <div>
-                        <label htmlFor="address_line5" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="address_line5" className="block mb-2 text-base font-medium text-gray-600">
                             Address Line 5
                         </label>
                         <input
@@ -316,7 +316,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="mobile" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="mobile" className="block mb-2 text-base font-medium text-gray-600">
                             Mobile
                         </label>
                         <input
@@ -330,7 +330,7 @@ export const StaffFormComponent = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="vehicle_code" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="vehicle_code" className="block mb-2 text-base font-medium text-gray-600">
                             Vehicle Code
                         </label>
                         <select
@@ -348,7 +348,7 @@ export const StaffFormComponent = () => {
                         </select>
                     </div>
                     <div>
-                        <label htmlFor="vehicle_category" className="block mb-2 text-base font-medium text-blue-700">
+                        <label htmlFor="vehicle_category" className="block mb-2 text-base font-medium text-gray-600">
                             Vehicle Category
                         </label>
                         <input
